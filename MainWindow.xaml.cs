@@ -24,5 +24,10 @@ namespace ui_task_8_p_20_1_Pavlov
         {
             InitializeComponent();
         }
+
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
     }
 }
