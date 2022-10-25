@@ -25,9 +25,13 @@ namespace ui_task_8_p_20_1_Pavlov
             InitializeComponent();
         }
 
+        private void BtnPowerOn_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
-
+            DragMove();
         }
     }
 }
